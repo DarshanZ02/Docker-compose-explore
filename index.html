@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Node.js App 🎉</title>
+</head>
+<body style="text-align:center; font-family:sans-serif;">
+  <h1>Welcome to My Node.js App 🎉</h1>
+  <p>This frontend is served directly from Express.</p>
+
+  <h3>Add User</h3>
+  <form action="/add" method="POST">
+    <input type="text" name="name" placeholder="Name" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <button type="submit">Add</button>
+  </form>
+
+  <p><a href="/users">View Users (JSON)</a></p>
+</body>
+</html>
